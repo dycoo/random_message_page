@@ -1,0 +1,22 @@
+<head>
+    <title>
+
+    </title>
+</head>
+<body>
+
+    <H2><p id="txtMessage">Your motivational message of the day</p></H2>
+    <H4><p onclick="write_ran_msj();"> Click here to get it </p></H4>
+
+</body>
+<script type="text/javascript" src="class_random_message.js"></script>
+<script>
+
+function write_ran_msj(){
+    let ranMsj= new RandomMessage();
+    document.getElementById('txtMessage').innerHTML=ranMsj.message();
+    
+}
+
+
+</script>

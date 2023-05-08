@@ -17,6 +17,8 @@ class RandomMessage{
 
 }
 
+// Unit Test
+/*
 let ranMsj= new RandomMessage();
-
 console.log(ranMsj.message());
+*/
